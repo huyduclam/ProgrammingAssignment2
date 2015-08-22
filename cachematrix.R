@@ -1,9 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-# make
-
-## Write a short comment describing this function
+# makeCacheMatrix and cacheSolve are two functions
+# that demonstrate how to store calculation results
+# in a cache to speed up programming.
 
 # makeCacheMatrix creates a special "matrix" that is
 # really just a list of functions used to 
@@ -24,7 +21,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
 
 # cacheSolve calculates the inverse of the special "matrix"
 # created with the makeCacheMatrix function. It checks
